@@ -9,12 +9,6 @@
 #import "HigNavController.h"
 #import "HIGMusicPlayerController.h"
 
-@interface HigNavController ()
-
-@property UIViewController *vc;
-
-@end
-
 @implementation HigNavController
 
 + (HigNavController *)singleNav {
@@ -33,8 +27,6 @@
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
     self = [super initWithRootViewController:rootViewController];
     if (self) {
-        _vc = rootViewController;
-        self.view.autoresizesSubviews = NO;
     }
     return self;
 }
