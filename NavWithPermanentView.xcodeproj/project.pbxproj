@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		336556631D76DF9A00980EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556621D76DF9A00980EA4 /* main.m */; };
-		336556661D76DF9A00980EA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556651D76DF9A00980EA4 /* AppDelegate.m */; };
-		336556691D76DF9A00980EA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556681D76DF9A00980EA4 /* ViewController.m */; };
-		3365566C1D76DF9A00980EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365566A1D76DF9A00980EA4 /* Main.storyboard */; };
 		3365566E1D76DF9A00980EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3365566D1D76DF9A00980EA4 /* Assets.xcassets */; };
 		336556711D76DF9A00980EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365566F1D76DF9A00980EA4 /* LaunchScreen.storyboard */; };
 		3365567C1D76DF9B00980EA4 /* NavWithPermanentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365567B1D76DF9B00980EA4 /* NavWithPermanentViewTests.m */; };
 		336556871D76DF9B00980EA4 /* NavWithPermanentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556861D76DF9B00980EA4 /* NavWithPermanentViewUITests.m */; };
+		336556961D76E00E00980EA4 /* HigNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556951D76E00E00980EA4 /* HigNavController.m */; };
+		336556991D76E04800980EA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556981D76E04800980EA4 /* AppDelegate.m */; };
+		336556A21D76E05C00980EA4 /* HIGContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365569B1D76E05C00980EA4 /* HIGContainerVC.m */; };
+		336556A31D76E05C00980EA4 /* HIGTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365569D1D76E05C00980EA4 /* HIGTableVC.m */; };
+		336556A41D76E05C00980EA4 /* HIGDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365569F1D76E05C00980EA4 /* HIGDetailVC.m */; };
+		336556A51D76E05C00980EA4 /* HIGMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556A11D76E05C00980EA4 /* HIGMessageCell.m */; };
+		336556AB1D76E0BB00980EA4 /* HIGMusicPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556A81D76E0BB00980EA4 /* HIGMusicPlayerController.m */; };
+		336556AC1D76E0BB00980EA4 /* HIGMusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 336556AA1D76E0BB00980EA4 /* HIGMusicPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +42,6 @@
 /* Begin PBXFileReference section */
 		3365565E1D76DF9A00980EA4 /* NavWithPermanentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavWithPermanentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336556621D76DF9A00980EA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		336556641D76DF9A00980EA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		336556651D76DF9A00980EA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		336556671D76DF9A00980EA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		336556681D76DF9A00980EA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3365566B1D76DF9A00980EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3365566D1D76DF9A00980EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336556701D76DF9A00980EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		336556721D76DF9A00980EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,22 @@
 		336556821D76DF9B00980EA4 /* NavWithPermanentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavWithPermanentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		336556861D76DF9B00980EA4 /* NavWithPermanentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavWithPermanentViewUITests.m; sourceTree = "<group>"; };
 		336556881D76DF9B00980EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336556941D76E00E00980EA4 /* HigNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HigNavController.h; sourceTree = "<group>"; };
+		336556951D76E00E00980EA4 /* HigNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HigNavController.m; sourceTree = "<group>"; };
+		336556971D76E04800980EA4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		336556981D76E04800980EA4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3365569A1D76E05C00980EA4 /* HIGContainerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGContainerVC.h; sourceTree = "<group>"; };
+		3365569B1D76E05C00980EA4 /* HIGContainerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIGContainerVC.m; sourceTree = "<group>"; };
+		3365569C1D76E05C00980EA4 /* HIGTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGTableVC.h; sourceTree = "<group>"; };
+		3365569D1D76E05C00980EA4 /* HIGTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIGTableVC.m; sourceTree = "<group>"; };
+		3365569E1D76E05C00980EA4 /* HIGDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGDetailVC.h; sourceTree = "<group>"; };
+		3365569F1D76E05C00980EA4 /* HIGDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIGDetailVC.m; sourceTree = "<group>"; };
+		336556A01D76E05C00980EA4 /* HIGMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGMessageCell.h; sourceTree = "<group>"; };
+		336556A11D76E05C00980EA4 /* HIGMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIGMessageCell.m; sourceTree = "<group>"; };
+		336556A71D76E0BB00980EA4 /* HIGMusicPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGMusicPlayerController.h; sourceTree = "<group>"; };
+		336556A81D76E0BB00980EA4 /* HIGMusicPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIGMusicPlayerController.m; sourceTree = "<group>"; };
+		336556A91D76E0BB00980EA4 /* HIGMusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIGMusicPlayerView.h; sourceTree = "<group>"; };
+		336556AA1D76E0BB00980EA4 /* HIGMusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIGMusicPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,12 @@
 		336556601D76DF9A00980EA4 /* NavWithPermanentView */ = {
 			isa = PBXGroup;
 			children = (
-				336556641D76DF9A00980EA4 /* AppDelegate.h */,
-				336556651D76DF9A00980EA4 /* AppDelegate.m */,
-				336556671D76DF9A00980EA4 /* ViewController.h */,
-				336556681D76DF9A00980EA4 /* ViewController.m */,
-				3365566A1D76DF9A00980EA4 /* Main.storyboard */,
+				336556971D76E04800980EA4 /* AppDelegate.h */,
+				336556981D76E04800980EA4 /* AppDelegate.m */,
+				336556941D76E00E00980EA4 /* HigNavController.h */,
+				336556951D76E00E00980EA4 /* HigNavController.m */,
+				336556A61D76E09A00980EA4 /* VCsForNavController */,
+				336556AD1D76E0C300980EA4 /* MusicPlayer */,
 				3365566D1D76DF9A00980EA4 /* Assets.xcassets */,
 				3365566F1D76DF9A00980EA4 /* LaunchScreen.storyboard */,
 				336556721D76DF9A00980EA4 /* Info.plist */,
@@ -138,6 +155,32 @@
 				336556881D76DF9B00980EA4 /* Info.plist */,
 			);
 			path = NavWithPermanentViewUITests;
+			sourceTree = "<group>";
+		};
+		336556A61D76E09A00980EA4 /* VCsForNavController */ = {
+			isa = PBXGroup;
+			children = (
+				3365569A1D76E05C00980EA4 /* HIGContainerVC.h */,
+				3365569B1D76E05C00980EA4 /* HIGContainerVC.m */,
+				3365569C1D76E05C00980EA4 /* HIGTableVC.h */,
+				3365569D1D76E05C00980EA4 /* HIGTableVC.m */,
+				3365569E1D76E05C00980EA4 /* HIGDetailVC.h */,
+				3365569F1D76E05C00980EA4 /* HIGDetailVC.m */,
+				336556A01D76E05C00980EA4 /* HIGMessageCell.h */,
+				336556A11D76E05C00980EA4 /* HIGMessageCell.m */,
+			);
+			name = VCsForNavController;
+			sourceTree = "<group>";
+		};
+		336556AD1D76E0C300980EA4 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				336556A71D76E0BB00980EA4 /* HIGMusicPlayerController.h */,
+				336556A81D76E0BB00980EA4 /* HIGMusicPlayerController.m */,
+				336556A91D76E0BB00980EA4 /* HIGMusicPlayerView.h */,
+				336556AA1D76E0BB00980EA4 /* HIGMusicPlayerView.m */,
+			);
+			name = MusicPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +288,6 @@
 			files = (
 				336556711D76DF9A00980EA4 /* LaunchScreen.storyboard in Resources */,
 				3365566E1D76DF9A00980EA4 /* Assets.xcassets in Resources */,
-				3365566C1D76DF9A00980EA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				336556691D76DF9A00980EA4 /* ViewController.m in Sources */,
-				336556661D76DF9A00980EA4 /* AppDelegate.m in Sources */,
+				336556961D76E00E00980EA4 /* HigNavController.m in Sources */,
+				336556A31D76E05C00980EA4 /* HIGTableVC.m in Sources */,
+				336556A41D76E05C00980EA4 /* HIGDetailVC.m in Sources */,
+				336556AC1D76E0BB00980EA4 /* HIGMusicPlayerView.m in Sources */,
 				336556631D76DF9A00980EA4 /* main.m in Sources */,
+				336556991D76E04800980EA4 /* AppDelegate.m in Sources */,
+				336556A21D76E05C00980EA4 /* HIGContainerVC.m in Sources */,
+				336556A51D76E05C00980EA4 /* HIGMessageCell.m in Sources */,
+				336556AB1D76E0BB00980EA4 /* HIGMusicPlayerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +356,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3365566A1D76DF9A00980EA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3365566B1D76DF9A00980EA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3365566F1D76DF9A00980EA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
